@@ -1,0 +1,88 @@
+---
+title: "wbesnotes"
+author: "Rizwan Mushtaq"
+date: "4/17/2017"
+output: 
+  pdf_document: 
+    latex_engine: xelatex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Notes to the Variables of WBES Pakistan2013
+
+a3a==region of the establishment
+
+a6a== Size
+a6b== is actual size, should be taken this
+
+b1==legal status of the firm
+
+b4==amongst the owners of firm are there any female
+
+b5==year establishment began **operations**
+
+b6==number of full time employees
+
+b7==How many years of experience working in this sector does the Top Manager have?
+
+b7a==is the top manager a female
+
+**ICT**
+
+c22a==EMAIL
+
+c22b==WEBSITE
+
+c28==CELLPHONE
+
+c30b==Telecommunications (an obstacle)
+
+SARd24a==local chamber of commerce
+
+**sales**
+
+d2==In fiscal year 2011/2012, what were this establishment's total annual sales for ALL products and services?
+
+**Finance**
+
+k6 == Now let's talk about the establishment's current situation. At this time, does this establishment have a checking or savings account?
+
+k7 == At this time, does this establishment have an overdraft facility?
+
+k8 == At this time, does this establishment have a line of credit or a loan from a financial institution?
+
+k3 == Over fiscal year 2011/2012, please estimate the proportion of this establishment's working capital,
+that is its day-to-day operations, that was financed from each of the following sources? SHOW
+CARD 25
+
+k30==Access to finance (an obstacle)
+
+**education**
+
+l9b == What is the percentage of full-time permanent workers who completed secondary school?
+
+l10 == Over fiscal year 2011/2012, did this establishment have formal training programs for its permanent, full-time employees?
+
+## Categorical data analysis
+
+Barycentric discriminant analyis (BADIA), Canonical correlation analysis, categorical variables,
+Chi-square test, Coefficient alpha (Cronbach's alpha), Data mining, Descriptive discriminant
+analysis, Discriminant analysis, Exploratory data analysis, Exploratory factor
+analysis, Guttman scaling, Matrix algebra, Principal component analysis, R.
+
+## Canonical correlation analysis
+
+Canonical correlation (CC) is somewhat similar to the traditional Principle Component method (PCM), which is used to reduce the dimensionality of the data. Whearas CC analysis usually provides the association between two sets of variables.   
+
+
+
+
+
+## References
+
+I found a nice article about how to handle missing values... 
+
+<https://cran.r-project.org/web/packages/memisc/vignettes/items.html>
